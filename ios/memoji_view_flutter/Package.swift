@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "memoji-view-flutter", targets: ["memoji_view_flutter"])
     ],
     dependencies: [
-        .package(url: "https://github.com/emrearmagan/ModalKit.git", from: "0.0.2")
+        .package(url: "https://github.com/emrearmagan/MemojiView", from: "0.0.2")
     ],
     targets: [
         .target(
